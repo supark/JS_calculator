@@ -1,0 +1,78 @@
+table{
+  border-spacing: 0;
+  width: 400px;
+  height: 600px;
+  background-color: #81C7D4;
+}
+tr{
+  height: 10px;
+}
+
+td{
+  padding: 0;margin: 0;
+  height: 10px;
+}
+#result{
+  margin: 10px;
+  width: 380px;
+  height: 80px;
+  border: 0px;
+  background-color: white;
+  font-family: monospace;
+  text-align: right;
+  font-size: 80px;
+}
+#cal{
+  position:relative;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border: 0;
+  background-color: #A5DEE4;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select:none;
+}
+#cal:hover, #clear:hover, #zero:hover, #equal:hover{
+  position: relative;
+  top: -5px;
+  left: -5px;
+  box-shadow: 10px 10px 10px;
+}
+#cal:active, #clear:active, #zero:active, #equal:active{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  box-shadow: 0 0 0;
+}
+#cal:focus, #clear:focus, #equal:focus, #zero:focus {
+  outline:none;
+}
+#clear, #equal{
+  position:relative;
+  margin: 10px;
+  width: 80px;
+  height: 180px;
+  border: 0;
+  background-color: #A5DEE4;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select:none;
+}
+#zero{
+  position:relative;
+  margin: 10px;
+  width: 180px;
+  height: 80px;
+  border: 0;
+  background-color: #A5DEE4;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select:none;
+}

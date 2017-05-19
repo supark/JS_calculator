@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="stylesheet" type="text/css" href="hw6style.css">
+  </head>
+  <body>
+    <table>
+      <form name="jsCalc">
+      <tr>
+        <td colspan="4">
+          <input id="result" type="text" name="txtDisplay" value="0" readonly />
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input id="cal" type="button" value="+" onclick="bt_adder(12)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="-" onclick="bt_adder(13)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="*" onclick="bt_adder(14)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="/" onclick="bt_adder(15)"/>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input id="cal"  type="button" value="7" onclick="bt_adder(7)" />
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="8" onclick="bt_adder(8)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="9" onclick="bt_adder(9)"/>
+
+        </td>
+
+          <td rowspan="2">
+            <input id="clear" type="button" value="0" onclick="bt_adder(11)"/>
+
+          </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input id="cal" type="button" value="4" onclick="bt_adder(4)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="5" onclick="bt_adder(5)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="6" onclick="bt_adder(6)"/>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input id="cal" type="button" value="1" onclick="bt_adder(1)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="2" onclick="bt_adder(2)"/>
+
+        </td>
+        <td>
+          <input id="cal" type="button" value="3" onclick="bt_adder(3)"/>
+
+        </td>
+
+          <td rowspan="2">
+            <input id="equal" type="button" value="=" onclick="bt_adder(16)"/>
+
+          </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <input id="zero" type="button" value="0" onclick="bt_adder(0)"/>
+
+        </td>
+
+        <td>
+          <input id="cal" type="button" value="." onclick="bt_adder(10)"/>
+
+        </td>
+      </tr>
+    </form>
+    </table>
+
+    <script src="js.js">  </script>
+  </body>
+</html>
